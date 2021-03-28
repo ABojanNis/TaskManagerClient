@@ -1,0 +1,16 @@
+.clickable{
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.clickable:hover { transform: scale(1.05); z-index: 100 }
+
+.iziToast.iziToast-color-green {
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+}
+
+.iziToast.iziToast-color-red {
+  background-color: #f44336 !important;
+  border-color: #f44336 !important;
+}
